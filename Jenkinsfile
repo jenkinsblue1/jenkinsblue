@@ -4,7 +4,6 @@ pipeline {
     stage('build') {
       steps {
         echo 'demo job'
-        build 'build'
       }
     }
     stage('compile') {
